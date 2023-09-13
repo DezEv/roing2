@@ -36,8 +36,8 @@ const timeElm = document.querySelector("#time");
 const countElm = document.querySelector("#count");
 
 // Audio elements
-const grabAudio = new Audio("assets/audio/grab.mp3");
-const releaseAudio = new Audio("assets/audio/release.mp3");
+const grabAudio = new Audio("/assets/audio/grab.mp3");
+const releaseAudio = new Audio("/assets/audio/release.mp3");
 grabAudio.volume = 0.15;
 releaseAudio.volume = 0.15;
 
